@@ -705,7 +705,12 @@ h3{
     font-size: 18px;
 }
 
-
+.supertext{
+    font-size: 20px;
+}
+.subtext{
+    font-size: 15px;
+}
 .content a{
     text-align: center;
     font-size: 48px;
