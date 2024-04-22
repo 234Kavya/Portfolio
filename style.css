@@ -382,46 +382,59 @@ textarea , input {
 
 /*=============== Skills ===============*/
 
+.grid{
+    display: grid;
+}
 .skill{
     /* background-color: red; */
     text-align: center;
     align-items: center;
+    /* border: 2px solid; */
 }
 
 .skill__item{
     /* background-color: red; */
     color: var(--mono-font);
-    margin-top: -10px;
+    text-align: center;
+    align-items: center;
+
+    
 }
 
-.icon_box{
+.icon__box{
     display: flex;
-   
+    
+  
 }
 
 .inner_text{
     display: flex;
-    justify-content:center;
-    margin: 10px 10px;
+    /* border: 2px solid black;  */
+    /* justify-content:center; */
+    margin: 0px 4px;
+
+
     
 }
 
 .inner_text p {
-    background-color: black;
+    /* background-color: black; */
     border-radius: 15px;
-    color: white;
-    padding: 20px 20px;
-    margin: 10px 10px;
+    /* color: white; */
+    /* padding: 20px 20px;
+    margin: 10px 10px; */
     align-items: center;
+    font: 10px;
 }
 
-.inner_text p:hover{
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-   
-}
 
+.skill_container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    width: max-content;
+}
 
 /* extraccirculars */
 
