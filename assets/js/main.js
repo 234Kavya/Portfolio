@@ -52,6 +52,7 @@ function removeOpen(index1){
     })
 }
 
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 
